@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+    new.cowork:
+        container_name: new.cowork
+        image: nginx:alpine-slim
+        expose:
+            - "80/tcp"
+        networks:
+            - caddy
+        volumes:
+            - ./src:/usr/share/nginx/html
+
+networks:
+  caddy:
+    external: true

@@ -6,6 +6,8 @@ services:
         image: nginx:alpine-slim
         expose:
             - "80/tcp"
+        ports:
+            - "8088:80"
         networks:
             - caddy
         volumes:

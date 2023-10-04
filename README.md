@@ -1,12 +1,11 @@
 # Notes:
-
-###to start the container run:
+### To start the container run:
 
 <code>
   docker-compose up -d
 </code>
 
-### to stop the service run:
+### To stop the service run:
 
 <code>
   docker-compose down

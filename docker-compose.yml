@@ -7,7 +7,7 @@ services:
         expose:
             - "80/tcp"
         ports:
-            - "8091:80"
+            - "8092:80"
         networks:
             - caddy
         volumes:
